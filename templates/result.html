@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; min-height: 100vh; }
+        .result { background: rgba(255,255,255,0.9); color: #333; padding: 40px; border-radius: 15px; display: inline-block; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        h1 { font-size: 48px; margin: 0; color: #d32323; }
+        .score { font-size: 72px; font-weight: bold; color: #2e8b57; }
+        a { color: #667eea; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <h2>{{ city }} • {{ cuisine }}</h2>
+        <h1>Predicted Success Score</h1>
+        <div class="score">{{ score }}/100</div>
+        <p>Percentile rank vs all restaurants in {{ city }}</p>
+        <p>Belongs to Market Segment #{{ cluster }}</p>
+        <br>
+        <a href="/">← Try Another Location</a>
+    </div>
+</body>
+</html>
