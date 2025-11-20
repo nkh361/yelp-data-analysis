@@ -18,5 +18,4 @@ pip install -r requirements.txt >/dev/null
 
 echo "Launching web app at http://127.0.0.1:5000"
 echo "Press Ctrl+C to stop"
-cd yelp_flask_app
 python app.py
