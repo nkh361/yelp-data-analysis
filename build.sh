@@ -16,6 +16,5 @@ echo "Installing dependencies..."
 pip install --upgrade pip >/dev/null
 pip install -r requirements.txt >/dev/null
 
-echo "Launching web app at http://127.0.0.1:5000"
-echo "Press Ctrl+C to stop"
+echo "Successfully installed dependencies, please wait for Flask to provide URL with open port..."
 python app.py
