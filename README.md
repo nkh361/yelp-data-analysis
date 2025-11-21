@@ -1,9 +1,5 @@
 # Data-Driven Insights into Restaurant Markets Using Hybrid Clustering and Regression on Yelp Data
 
-### Demo video
-
----
-
 ### Build Instructions for Flask Demo
 Clone the repository: 
 ```bash
